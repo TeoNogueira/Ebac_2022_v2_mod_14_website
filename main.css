@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background: rgb(215,129,129);
+    background: linear-gradient(315deg, rgba(215,129,129,1) 0%, rgb(255, 113, 4) 100%);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(237, 10, 10);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Concert One', cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #f74e2c;
+}
+
+.text-colored {
+    color: #fff;
+}
+
+
+.text-colored-2 {
+    color: #f74e2c;
+}
+.text-colored-3 {
+    color: #000;
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(13, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #fff;
+}
+
+h2, h5 {
+
+    color: #000;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
